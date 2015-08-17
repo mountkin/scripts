@@ -264,6 +264,7 @@ IMG_packet_OEM_PACKAGE=oem-packet
 IMG_csphere_DISK_FORMAT=iso
 IMG_csphere_PARTITIONED_IMG=0
 IMG_csphere_CONF_FORMAT=iso
+IMG_csphere_OEM_PACKAGE=oem-csphere
 
 ###########################################################
 
