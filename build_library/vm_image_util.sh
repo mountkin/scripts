@@ -37,6 +37,7 @@ VALID_IMG_TYPES=(
     niftycloud
     cloudsigma
     packet
+    csphere
 )
 
 #list of oem package names, minus the oem- prefix
@@ -57,6 +58,7 @@ VALID_OEM_PACKAGES=(
     niftycloud
     cloudsigma
     packet
+    csphere
 )
 
 # Set at runtime to one of the above types
@@ -257,6 +259,11 @@ IMG_cloudsigma_OEM_PACKAGE=oem-cloudsigma
 
 ## packet
 IMG_packet_OEM_PACKAGE=oem-packet
+
+## csphere 
+IMG_csphere_DISK_FORMAT=iso
+IMG_csphere_PARTITIONED_IMG=0
+IMG_csphere_CONF_FORMAT=iso
 
 ###########################################################
 
